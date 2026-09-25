@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hassan Social Media | Premium Digital Growth</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:#05070d;color:#fff;line-height:1.6;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;background:radial-gradient(circle at 10% 20%,rgba(47,140,255,.08),transparent 25%),radial-gradient(circle at 90% 80%,rgba(91,80,255,.07),transparent 25%);z-index:-1}
+a{text-decoration:none;color:inherit}
+nav{display:flex;justify-content:space-between;align-items:center;padding:22px 7%;position:sticky;top:0;background:#08111fee;backdrop-filter:blur(10px);z-index:5}
+.logo-wrap{display:flex;align-items:center;gap:10px}
+.logo-mark{width:38px;height:38px;border-radius:11px;display:grid;place-items:center;background:linear-gradient(135deg,#2f8cff,#6a5cff);font-size:12px;font-weight:900;box-shadow:0 8px 25px rgba(47,140,255,.25)}
+.logo{font-size:21px;font-weight:800}.logo span{color:#2f8cff}
+nav ul{display:flex;gap:28px;list-style:none;color:#c9d4e3;font-size:14px}
+nav li a{transition:.25s}nav li a:hover{color:#53a3ff}
+.btn{display:inline-block;background:linear-gradient(135deg,#2f8cff,#5967ff);color:white;padding:13px 22px;border-radius:9px;font-weight:700;box-shadow:0 10px 30px rgba(47,140,255,.22);transition:.3s;position:relative;overflow:hidden}.btn:hover{transform:translateY(-3px);box-shadow:0 15px 35px rgba(47,140,255,.35)}.btn span{margin-left:7px}
+.hero{min-height:82vh;display:flex;align-items:center;padding:80px 7%;background:radial-gradient(circle at 80% 30%,#123b69 0,transparent 35%)}
+.hero-content{max-width:700px;animation:fadeUp .9s ease both}.tag{color:#53a3ff;font-weight:700;letter-spacing:2px;text-transform:uppercase;font-size:13px}
+h1{font-size:clamp(46px,7vw,78px);line-height:1.02;margin:18px 0;letter-spacing:-2px}.hero p{font-size:19px;color:#b7c4d5;max-width:610px;margin-bottom:30px}
+@keyframes fadeUp{from{opacity:0;transform:translateY(25px)}to{opacity:1;transform:none}}
+@keyframes float{50%{transform:translateY(-8px)}}
+section{padding:85px 7%}.section-title{text-align:center;margin-bottom:45px}.section-title h2{font-size:40px}.section-title p{color:#9eacbd;margin-top:10px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{background:linear-gradient(145deg,#101d2f,#0d1929);border:1px solid #1c3048;border-radius:16px;padding:28px;transition:.3s;animation:fadeUp .7s ease both}.card:hover{transform:translateY(-8px);border-color:#2f8cff;box-shadow:0 18px 45px rgba(0,0,0,.25)}.icon{font-size:30px;margin-bottom:15px;animation:float 3s ease-in-out infinite}.card h3{margin-bottom:8px}.card p{color:#9eacbd}
+.about{background:#0c1727}.about-box{max-width:900px;margin:auto;text-align:center}.about-box p{color:#b7c4d5;font-size:18px}
+.cta{text-align:center;background:linear-gradient(135deg,#0d2542,#102b4c)}.cta h2{font-size:42px;margin-bottom:12px}.cta p{color:#b7c4d5;margin-bottom:25px}
+footer{padding:30px 7%;display:flex;justify-content:space-between;color:#8190a3;font-size:14px;border-top:1px solid #14253a}.socials a{transition:.2s}.socials a:hover{color:#53a3ff}
+.chat-actions{position:fixed;right:24px;bottom:24px;display:flex;gap:10px;z-index:10}.wa-float,.chatgpt-float{width:58px;height:58px;border-radius:50%;display:grid;place-items:center;color:#fff;font-size:25px;box-shadow:0 10px 30px rgba(0,0,0,.35);animation:float 2.5s ease-in-out infinite}.wa-float{background:#25D366}.chatgpt-float{background:#111b29;border:1px solid #2c4058}
+@media(max-width:800px){nav ul{display:none}.grid{grid-template-columns:1fr}.hero{min-height:70vh;padding-top:60px}footer{display:block;text-align:center}.hero p{font-size:17px}}
+.contact-form{max-width:620px;margin:30px auto 18px;display:grid;gap:14px;text-align:left}.contact-form input,.contact-form textarea{width:100%;padding:15px 16px;border-radius:10px;border:1px solid #29415d;background:#0a1625;color:#fff;font:inherit;outline:none}.contact-form input:focus,.contact-form textarea:focus{border-color:#2f8cff;box-shadow:0 0 0 3px rgba(47,140,255,.12)}.contact-form textarea{resize:vertical}.contact-form button{border:0;cursor:pointer}.contact-links{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}.small-note{font-size:12px!important;color:#8091a6!important;margin-top:18px!important}.message-float{padding:13px 20px;border-radius:12px;display:grid;place-items:center;color:#fff;font-size:15px;font-weight:700;background:linear-gradient(135deg,#2f8cff,#5967ff);box-shadow:0 10px 30px rgba(0,0,0,.35);animation:float 2.5s ease-in-out infinite}
+
+:root{--gold:#d7b56d;--gold2:#f0d28c;--ink:#05070d;--panel:#0b0f18;--muted:#9aa7b8}
+body{background:radial-gradient(circle at 15% 10%,rgba(215,181,109,.10),transparent 25%),radial-gradient(circle at 85% 25%,rgba(70,110,255,.10),transparent 28%),#05070d}
+nav{background:rgba(5,7,13,.82);border-bottom:1px solid rgba(215,181,109,.12)}
+.logo-mark{background:linear-gradient(135deg,var(--gold),#8d6a2d);color:#090a0d;box-shadow:0 8px 28px rgba(215,181,109,.18)}
+.logo span,.tag,.gold-text{color:var(--gold2)}
+.hero{min-height:88vh;background:radial-gradient(circle at 78% 30%,rgba(215,181,109,.12),transparent 28%),radial-gradient(circle at 88% 70%,rgba(55,95,255,.12),transparent 30%);position:relative}
+.hero:after{content:"PREMIUM DIGITAL GROWTH";position:absolute;right:7%;bottom:12%;font-size:11px;letter-spacing:5px;color:rgba(255,255,255,.20);transform:rotate(-90deg);transform-origin:right bottom}
+h1{font-weight:900;letter-spacing:-3px;text-shadow:0 10px 50px rgba(0,0,0,.35)}
+.btn{background:linear-gradient(135deg,var(--gold2),var(--gold));color:#08090d;box-shadow:0 12px 35px rgba(215,181,109,.18)}
+.btn:hover{box-shadow:0 16px 40px rgba(215,181,109,.28)}
+.card{background:linear-gradient(145deg,rgba(17,22,34,.96),rgba(8,12,20,.96));border:1px solid rgba(215,181,109,.13);box-shadow:0 18px 60px rgba(0,0,0,.20)}
+.card:hover{border-color:rgba(215,181,109,.65);box-shadow:0 22px 70px rgba(215,181,109,.10)}
+.about{background:linear-gradient(180deg,#080c14,#0a0e17)}
+.cta{background:linear-gradient(135deg,#111016,#0b101a);border-top:1px solid rgba(215,181,109,.12);border-bottom:1px solid rgba(215,181,109,.12)}
+.contact-form input,.contact-form textarea{background:#070b13;border-color:#283244}
+.message-float{background:linear-gradient(135deg,var(--gold2),var(--gold));color:#08090d;border-radius:14px}
+.socials a:hover{color:var(--gold2)}
+.section-title h2{letter-spacing:-1px}
+@media(max-width:800px){.hero:after{display:none}}
+.page-section{display:none;min-height:72vh;animation:fadeUp .45s ease both}
+.page-section.active{display:block}
+.hero.page-section{display:flex}
+.nav-active{color:var(--gold2)!important}
+</style>
+</head>
+<body>
+<nav>
+  <a class="logo-wrap" href="#home"><div class="logo-mark">H</div><div class="logo">HASSAN<span>MEDIA</span></div></a>
+  <ul>
+    <li><a href="#home" class="page-link nav-active" data-page="home">Home</a></li>
+    <li><a href="#services" class="page-link" data-page="services">Services</a></li>
+    <li><a href="#about" class="page-link" data-page="about">About</a></li>
+    <li><a href="#contact" class="page-link" data-page="contact">Contact</a></li>
+  </ul>
+  <a class="btn page-link" href="#contact" data-page="contact">Get Started <span>→</span></a>
+</nav>
+
+<main>
+<section class="hero page-section active" id="home">
+  <div class="hero-content">
+    <div class="tag">Premium Digital Growth Studio</div>
+    <h1>Build a Brand That <span class="gold-text">Looks Premium.</span></h1>
+    <p>Creative content, social media strategy, reels, SEO and digital growth — crafted to give your brand a premium online presence.</p>
+    <a class="btn page-link" href="#contact" data-page="contact">Start Your Project <span>→</span></a>
+  </div>
+</section>
+
+<section class="page-section" id="services">
+  <div class="section-title"><h2>Premium Services</h2><p>Everything your brand needs to look professional and grow online.</p></div>
+  <div class="grid">
+    <div class="card"><div class="icon">📱</div><h3>Social Media Management</h3><p>Consistent posting, planning and account management.</p></div>
+    <div class="card"><div class="icon">✍️</div><h3>Content Creation</h3><p>Creative posts, captions and content designed for your audience.</p></div>
+    <div class="card"><div class="icon">🚀</div><h3>SEO & Strategy</h3><p>Smart strategies to improve reach, engagement and visibility.</p></div>
+    <div class="card"><div class="icon">📣</div><h3>Social Media Ads</h3><p>Campaign planning and ad creatives for social platforms.</p></div>
+    <div class="card"><div class="icon">🎥</div><h3>Reels & Video</h3><p>Short-form video ideas and content built for attention.</p></div>
+    <div class="card"><div class="icon">📊</div><h3>Growth Planning</h3><p>Clear content direction and practical growth planning.</p></div>
+  </div>
+</section>
+
+<section class="about page-section" id="about">
+  <div class="about-box">
+    <div class="section-title">
+      <h2>About Hassan</h2>
+      <p>Social Media Services & Digital Growth</p>
+    </div>
+    <p>Hi, I’m <strong class="gold-text">Hassan</strong>, a Social Media Service provider focused on helping businesses and personal brands build a stronger presence online.</p>
+    <p style="margin-top:18px;">I provide <strong>social media management, content creation, captions, SEO, social media strategy, Reels & video content, and growth planning</strong>. My goal is to create professional content and practical strategies that help brands reach the right audience and grow their online presence.</p>
+    <p style="margin-top:18px;">Whether you’re starting a new page or want to improve your existing social media, I’m here to help turn your ideas into professional digital content.</p>
+    <p style="margin-top:24px;"><strong class="gold-text">Let’s build your social media presence together.</strong></p>
+  </div>
+</section>
+
+<section class="cta page-section" id="contact">
+  <h2>Let’s Build Something Great</h2>
+  <p>Tell us about your brand, project or social media goals.</p>
+  <form class="contact-form" action="mailto:your@email.com" method="post" enctype="text/plain">
+    <input type="text" name="Name" placeholder="Your Name" required>
+    <input type="email" name="Email" placeholder="Your Email" required>
+    <textarea name="Message" rows="5" placeholder="Write your message..." required></textarea>
+    <button class="btn" type="submit">Send Message ✉️</button>
+  </form>
+  <div class="contact-links">
+    <a class="btn" href="https://www.facebook.com/profile.php?id=61559807302831" target="_blank" rel="noopener">Facebook f</a>
+    <a class="btn" href="https://www.instagram.com/hassanalihh1292305/" target="_blank" rel="noopener">Instagram ◎</a>
+    <a class="btn" href="https://chatgpt.com/" target="_blank" rel="noopener">Message ✦</a>
+  </div>
+  <p class="small-note">Replace the email placeholder with your real contact email before publishing.</p>
+</section>
+</main>
+
+<footer>
+  <span>© 2026 Hassan Media • Premium Digital Growth</span>
+  <span class="socials">
+    <a href="https://www.instagram.com/hassanalihh1292305/" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a> •
+    <a href="https://www.facebook.com/profile.php?id=61559807302831" target="_blank" rel="noopener" aria-label="Facebook">Facebook</a>
+  </span>
+</footer>
+<div class="chat-actions"><a class="message-float" href="https://chatgpt.com/" target="_blank" rel="noopener">Message</a></div>
+
+<script>
+(function () {
+  const pages = document.querySelectorAll('.page-section');
+  const links = document.querySelectorAll('.page-link');
+
+  function showPage(id, updateHash = true) {
+    const target = document.getElementById(id) || document.getElementById('home');
+    pages.forEach(page => page.classList.toggle('active', page === target));
+
+    links.forEach(link => {
+      link.classList.toggle('nav-active', link.dataset.page === target.id);
+    });
+
+    if (updateHash) history.replaceState(null, '', '#' + target.id);
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  }
+
+  links.forEach(link => {
+    link.addEventListener('click', function (e) {
+      e.preventDefault();
+      showPage(this.dataset.page);
+    });
+  });
+
+  const initial = location.hash.replace('#', '');
+  showPage(initial && document.getElementById(initial) ? initial : 'home', false);
+})();
+</script>
+
+</body>
+</html>
